@@ -101,7 +101,7 @@ The class `ActedIn` is a **relationship model** from a `Person` to a `Movie`, it
 
 ### Write to the graph
 
-```python hl_lines="1  4  8-11"
+```python hl_lines="1  6  10-16"
 from cyphermodel import Graph
 
 keanu = Person(name="Keanu Reeves", born=1964)
@@ -112,7 +112,11 @@ graph = Graph("bolt://localhost:7687")
 
 async def main() -> None:
     async with graph.session() as session:
-        session.add_all([keanu, matrix, ActedIn(source=keanu, target=matrix, roles=["Neo"])])
+        session.add_all([
+            keanu,
+            matrix,
+            ActedIn(source=keanu, target=matrix, roles=["Neo"]),
+        ])
         await session.commit()
 ```
 
