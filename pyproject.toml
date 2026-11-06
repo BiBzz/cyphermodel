@@ -1,0 +1,35 @@
+[project]
+name = "cyphermodel"
+version = "0.0.1"
+description = "Graph databases in Python, fully async and strongly typed: Pydantic models for Cypher."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Business Agile", email = "contact@businessagile.eu" }]
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Framework :: AsyncIO",
+    "Framework :: Pydantic :: 2",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Database",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://cyphermodel.businessagile.eu"
+Documentation = "https://cyphermodel.businessagile.eu"
+Repository = "https://gitlab.com/businessagile/libraries/cyphermodel"
+Issues = "https://gitlab.com/businessagile/libraries/cyphermodel/-/issues"
+
+[dependency-groups]
+docs = ["zensical==0.0.71"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+exclude-newer = "2026-10-23T00:00:00Z"
