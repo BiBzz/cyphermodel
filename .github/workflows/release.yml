@@ -1,0 +1,45 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+env:
+  UV_FROZEN: "1"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    # PyPI trusts this workflow over OIDC, so no token is stored; the pypi
+    # environment waits for a reviewer, since an upload cannot be taken back
+    environment:
+      name: pypi
+      url: https://pypi.org/project/cyphermodel/
+
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.3.0
+        with:
+          version: "0.13.4"
+          enable-cache: true
+
+      - name: Check the tag matches the declared version
+        run: test "v$(uv version --short)" = "$GITHUB_REF_NAME"
+
+      - name: Build the documentation
+        run: |
+          uv sync --group docs
+          uv run zensical build --clean
+
+      - name: Build
+        run: uv build
+
+      - name: Publish to PyPI
+        run: uv publish --trusted-publishing always
