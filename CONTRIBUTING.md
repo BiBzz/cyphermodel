@@ -12,9 +12,10 @@ A GitHub pull request is carried over to GitLab by a maintainer, who links back 
 
 ## What we ask
 
-- Sign your commits (`git commit -S`): unsigned commits cannot be merged.
 - One topic per pull request, with tests for code and a page for user facing changes.
 - Commit messages in English, in the [Conventional Commits](https://www.conventionalcommits.org/) form (`feat:`, `fix:`, `docs:`).
+
+Your commits do not need to be signed. Maintainers sign their commits and tags.
 
 ## Working locally
 
@@ -24,3 +25,14 @@ $ uv run zensical serve
 ```
 
 The documentation is then served on http://localhost:8000.
+
+## Releasing
+
+Maintainers only. The version in `pyproject.toml` is changed through a merge request; once it is merged:
+
+```console
+$ git switch development && git pull
+$ scripts/release.sh
+```
+
+It checks the tree matches `origin` and the commit is signed, builds the package, signs the `v<version>` tag and pushes it after asking. The GitLab mirror carries the tag to GitHub, whose Release workflow publishes to PyPI once a maintainer approves the `pypi` environment.
