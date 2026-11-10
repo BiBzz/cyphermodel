@@ -14,13 +14,13 @@
 
 **Documentation**: <a href="https://cyphermodel.businessagile.eu" target="_blank">https://cyphermodel.businessagile.eu</a>
 
-**Source Code**: <a href="https://gitlab.com/businessagile/libraries/cyphermodel" target="_blank">https://gitlab.com/businessagile/libraries/cyphermodel</a>
+**Source Code**: <a href="https://gitlab.com/businessagile/libraries/cyphermodel" target="_blank">https://gitlab.com/businessagile/libraries/cyphermodel</a>, mirrored on <a href="https://github.com/BiBzz/cyphermodel" target="_blank">GitHub</a>
 
 ---
 
 > [!WARNING]
 > **Design phase.** CypherModel is being designed in the open. 
-> The code on this page shows the **target API**, which is not released yet. Follow the repository to see it land, or open an issue to shape it.
+> The code on this page shows the **target API**, which is not released yet. Follow the repository to see it land, or [open an issue](https://github.com/BiBzz/cyphermodel/issues) to shape it.
 
 CypherModel is a library for working with **graph databases** that speak **Cypher** (Memgraph, Neo4j) from Python code, with Python objects. It is designed to be **async from end to end**, **strongly typed**, and to keep Cypher one step away rather than hiding it.
 

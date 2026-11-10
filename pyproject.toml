@@ -22,7 +22,7 @@ dependencies = []
 Homepage = "https://cyphermodel.businessagile.eu"
 Documentation = "https://cyphermodel.businessagile.eu"
 Repository = "https://gitlab.com/businessagile/libraries/cyphermodel"
-Issues = "https://gitlab.com/businessagile/libraries/cyphermodel/-/issues"
+Issues = "https://github.com/BiBzz/cyphermodel/issues"
 
 [dependency-groups]
 docs = ["zensical==0.0.71"]
