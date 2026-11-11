@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: If you use CypherModel in your work, please cite it as below.
+type: software
+title: CypherModel
+abstract: "Graph databases in Python, fully async and strongly typed: Pydantic models for Cypher."
+authors:
+  - given-names: Alexandre
+    family-names: BERREBI
+    email: alexandre.berrebi@businessagile.eu
+    affiliation: Business Agile
+    website: https://businessagile.eu/en/about
+version: 0.0.1
+date-released: 2026-11-11
+license: MIT
+url: https://cyphermodel.businessagile.eu
+repository-code: https://gitlab.com/businessagile/libraries/cyphermodel
+keywords:
+  - neo4j
+  - memgraph
+  - cypher
+  - graph
+  - pydantic
+  - asyncio

@@ -16,6 +16,8 @@
 
 **Source Code**: <a href="https://gitlab.com/businessagile/libraries/cyphermodel" target="_blank">https://gitlab.com/businessagile/libraries/cyphermodel</a>, mirrored on <a href="https://github.com/BiBzz/cyphermodel" target="_blank">GitHub</a>
 
+**Created by**: <a href="https://businessagile.eu/en/about" target="_blank">Alexandre BERREBI</a>, maintained by <a href="https://businessagile.eu" target="_blank">Business Agile</a>
+
 ---
 
 > [!WARNING]
@@ -162,6 +164,11 @@ Models are plain Pydantic models with type annotations, so autocompletion, inlin
 ## Pydantic and the Neo4j driver
 
 **CypherModel** is a thin layer on two well maintained projects. A `Node` is a Pydantic model, so everything Pydantic does still works: validation, serialization, JSON Schema. Queries run on the async Neo4j driver, in managed read or write transactions, retried by the driver on transient errors.
+
+## Author
+
+Created by [Alexandre BERREBI](https://businessagile.eu/en/about), maintained by
+[Business Agile](https://businessagile.eu).
 
 ## License
 

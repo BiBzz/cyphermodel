@@ -5,7 +5,12 @@ description = "Graph databases in Python, fully async and strongly typed: Pydant
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
-authors = [{ name = "Business Agile", email = "contact@businessagile.eu" }]
+authors = [
+    { name = "Alexandre BERREBI", email = "alexandre.berrebi@businessagile.eu" },
+]
+maintainers = [
+    { name = "Business Agile", email = "contact@businessagile.eu" },
+]
 requires-python = ">=3.11"
 classifiers = [
     "Development Status :: 1 - Planning",

@@ -22,6 +22,8 @@
 
 **Source Code**: <a href="https://gitlab.com/businessagile/libraries/cyphermodel" target="_blank">https://gitlab.com/businessagile/libraries/cyphermodel</a>, mirrored on <a href="https://github.com/BiBzz/cyphermodel" target="_blank">GitHub</a>
 
+**Created by**: <a href="https://businessagile.eu/en/about" target="_blank">Alexandre BERREBI</a>, maintained by <a href="https://businessagile.eu" target="_blank">Business Agile</a>
+
 ---
 
 !!! warning "Design phase"
