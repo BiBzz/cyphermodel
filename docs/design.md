@@ -1,3 +1,7 @@
+---
+description: "Design principles, scope and roadmap of CypherModel, the async and strongly typed Python library for graph databases."
+---
+
 # Design and roadmap
 
 CypherModel is designed in the open. This page states what it aims at, what it leaves out, and in which order it will be built. Discussion happens in the [GitHub issues](https://github.com/BiBzz/cyphermodel/issues).

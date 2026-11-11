@@ -1,3 +1,7 @@
+---
+description: "CypherModel: Pydantic models for graph databases that speak Cypher (Memgraph, Neo4j), async from end to end and strongly typed. Designed in the open."
+---
+
 <style>
 .md-content .md-typeset h1 { display: none; }
 </style>

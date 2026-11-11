@@ -1,3 +1,7 @@
+---
+description: "The goals of CypherModel: async from end to end on the Neo4j driver, Pydantic nodes and relationships, strong typing, Cypher kept one step away."
+---
+
 # Features
 
 !!! warning "Design phase"
