@@ -13,7 +13,7 @@ version: 0.0.1
 date-released: 2026-11-11
 license: MIT
 url: https://cyphermodel.businessagile.eu
-repository-code: https://gitlab.com/businessagile/libraries/cyphermodel
+repository-code: https://github.com/BiBzz/cyphermodel
 keywords:
   - neo4j
   - memgraph

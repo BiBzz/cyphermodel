@@ -26,7 +26,7 @@ dependencies = []
 [project.urls]
 Homepage = "https://cyphermodel.businessagile.eu"
 Documentation = "https://cyphermodel.businessagile.eu"
-Repository = "https://gitlab.com/businessagile/libraries/cyphermodel"
+Repository = "https://github.com/BiBzz/cyphermodel"
 Issues = "https://github.com/BiBzz/cyphermodel/issues"
 
 [dependency-groups]

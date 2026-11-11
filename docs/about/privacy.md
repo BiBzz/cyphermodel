@@ -16,9 +16,10 @@ Neither leaves your browser.
 ## Who receives your requests
 
 - **GitLab Pages** (GitLab Inc., United States) serves every page and, like any web server, receives your IP address and browser details with each request.
-- **The GitLab API** (`gitlab.com`, GitLab Inc.) answers the request your browser sends for the repository counts in the header, and receives your IP address with it.
+- **The GitHub API** (`api.github.com`, GitHub Inc.) answers the request your browser sends for the repository counts in the header, and receives your IP address with it.
 
-See the [GitLab privacy statement](https://about.gitlab.com/privacy/).
+See the [GitLab privacy statement](https://about.gitlab.com/privacy/) and the
+[GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 ## Changes
 

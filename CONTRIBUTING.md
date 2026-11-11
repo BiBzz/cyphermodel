@@ -1,11 +1,11 @@
 # Contributing to CypherModel
 
-Thank you for helping. You can contribute from GitHub or from GitLab, whichever you use.
+Thank you for helping. Issues and pull requests are welcome on GitHub.
 
 ## Where things happen
 
 - **Issues**: [github.com/BiBzz/cyphermodel/issues](https://github.com/BiBzz/cyphermodel/issues).
-- **Pull requests**: on [GitHub](https://github.com/BiBzz/cyphermodel/pulls) or as merge requests on [GitLab](https://gitlab.com/businessagile/libraries/cyphermodel/-/merge_requests), against `development`.
+- **Pull requests**: on [GitHub](https://github.com/BiBzz/cyphermodel/pulls), against `development`.
 - **Source of truth**: [gitlab.com/businessagile/libraries/cyphermodel](https://gitlab.com/businessagile/libraries/cyphermodel). The final review, the CI and the merge happen there, and GitLab mirrors `development` to GitHub.
 
 A GitHub pull request is carried over to GitLab by a maintainer, who links back to it. You keep the authorship of your commits. When it lands, GitHub shows the pull request as merged, or a maintainer closes it with a link to the commit if it had to be rebased.

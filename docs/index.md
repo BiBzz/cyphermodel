@@ -15,7 +15,7 @@ description: "CypherModel: Pydantic models for graph databases that speak Cypher
     <em>CypherModel, graph databases in Python, fully async and strongly typed.</em>
 </p>
 <p align="center">
-<a href="https://gitlab.com/businessagile/libraries/cyphermodel/-/blob/development/LICENSE" target="_blank"><img src="img/badges/license.svg" alt="License: MIT"></a>
+<a href="https://github.com/BiBzz/cyphermodel/blob/development/LICENSE" target="_blank"><img src="img/badges/license.svg" alt="License: MIT"></a>
 <img src="img/badges/status.svg" alt="Status: design phase">
 <img src="img/badges/python.svg" alt="Python 3.11+">
 </p>
@@ -24,7 +24,7 @@ description: "CypherModel: Pydantic models for graph databases that speak Cypher
 
 **Documentation**: <a href="https://cyphermodel.businessagile.eu" target="_blank">https://cyphermodel.businessagile.eu</a>
 
-**Source Code**: <a href="https://gitlab.com/businessagile/libraries/cyphermodel" target="_blank">https://gitlab.com/businessagile/libraries/cyphermodel</a>, mirrored on <a href="https://github.com/BiBzz/cyphermodel" target="_blank">GitHub</a>
+**Source Code**: <a href="https://github.com/BiBzz/cyphermodel" target="_blank">https://github.com/BiBzz/cyphermodel</a>
 
 **Created by**: <a href="https://businessagile.eu/en/about" target="_blank">Alexandre BERREBI</a>, maintained by <a href="https://businessagile.eu" target="_blank">Business Agile</a>
 
@@ -176,4 +176,4 @@ Models are plain Pydantic models with type annotations, so autocompletion, inlin
 
 ## License
 
-This project is licensed under the terms of the [MIT license](https://gitlab.com/businessagile/libraries/cyphermodel/-/blob/development/LICENSE).
+This project is licensed under the terms of the [MIT license](https://github.com/BiBzz/cyphermodel/blob/development/LICENSE).

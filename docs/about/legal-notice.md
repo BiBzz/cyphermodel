@@ -35,4 +35,4 @@ Téléphone : +1 415 829 2854
 
 ## Content and license
 
-The documentation and the source code of CypherModel are published under the [MIT license](https://gitlab.com/businessagile/libraries/cyphermodel/-/blob/development/LICENSE).
+The documentation and the source code of CypherModel are published under the [MIT license](https://github.com/BiBzz/cyphermodel/blob/development/LICENSE).
